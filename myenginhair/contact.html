@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Gefmed Hair Transplant Clinic</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="logo">Gefmed Hair Transplant Clinic</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li>
+                    <select id="languageSwitcher" onchange="switchLanguage('contact')">
+                        <option value="en">English</option>
+                        <option value="tr">Türkçe</option>
+                        <option value="ar">العربية</option>
+                    </select>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Address: 123 Hair Street, City, Country</p>
+            <p>Phone: +123 456 7890</p>
+            <p>Email: info@gefmed.com</p>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+        <section id="quick-contact">
+            <h2>Quick Contact</h2>
+            <a href="https://wa.me/1234567890" class="contact-button">WhatsApp</a>
+            <a href="tel:+1234567890" class="contact-button">Call Us</a>
+            <a href="mailto:info@gefmed.com" class="contact-button">Email Us</a>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-info">
+            <p>&copy; 2024 Gefmed Hair Transplant Clinic. All rights reserved.</p>
+            <p>Address: 123 Hair Street, City, Country | Phone: +123 456 7890 | Email: info@gefmed.com</p>
+        </div>
+    </footer>
+</body>
+</html>
